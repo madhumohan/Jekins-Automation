@@ -1,6 +1,3 @@
-currentBuild.displayName = "Pipeline-#"+currentBuild.nubmer
-
-
 pipeline {
     agent any
    
