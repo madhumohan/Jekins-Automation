@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+   
+    stages {
+        stage("Check Out") {
+            steps {
+                echo "Get Source Code from Github"
+                git credentialsId: 'github', url: 'https://github.com/madhumohan/Jekins-Automation.git'
+            }
+        }
+    }
+}
