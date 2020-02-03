@@ -8,5 +8,10 @@ pipeline {
                 git credentialsId: 'github', url: 'https://github.com/madhumohan/Jekins-Automation.git'
             }
         }
+        stage("Build App") {
+            steps {
+                echo "Buil the application using by Maven"
+            }
+        }
     }
 }
