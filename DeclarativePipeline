@@ -10,7 +10,7 @@ pipeline {
         }
         stage("Build App") {
             steps {
-                echo "Buil the application using by Maven"
+                echo "Buil the application using by Maven tool"
             }
         }
     }
