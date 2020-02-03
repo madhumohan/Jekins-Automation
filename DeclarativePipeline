@@ -1,3 +1,6 @@
+currentBuild.displayName = "scripted-pipeline-#"+currentBuild.nubmer
+
+
 pipeline {
     agent any
    
