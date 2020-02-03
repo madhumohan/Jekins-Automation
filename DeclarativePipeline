@@ -1,4 +1,4 @@
-currentBuild.displayName = "scripted-pipeline-#"+currentBuild.nubmer
+currentBuild.displayName = "Pipeline-#"+currentBuild.nubmer
 
 
 pipeline {
